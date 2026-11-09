@@ -1,0 +1,164 @@
+│ bmp585_monitor/bmp585_monitor.ino
+│ @@ -101,6 +101,14 @@
+│  int16_t seq = 0;
+│  unsigned long lastTxMs = 0;
+│  unsigned long lastBleMs = 0;
+│ +
+│ +/* diagnostics counters */
+│ +uint32_t txOk = 0;
+│ +uint32_t txFail = 0;
+│ +uint32_t rxOk = 0;
+│ +int16_t lastRadioStatus = 0;
+│ +unsigned long lastRxMs = 0;
+│ +unsigned long lastDiagMs = 0;
+│
+│  /* role: 0=undecided, 1=stationary base, 2=monitor */
+│  uint8_t role = 0;
+│ bmp585_monitor/bmp585_monitor.ino
+│ @@ -295,7 +295,11 @@
+│
+│    int state = radio.transmit((uint8_t*)&pkt, sizeof(pkt));
+│    if (state == RADIOLIB_ERR_NONE) {
+│ +    txOk++;
+│      radio.finishTransmit();
+│ +  } else {
+│ +    txFail++;
+│ +    lastRadioStatus = state;
+│    }
+│  }
+│
+│ bmp585_monitor/bmp585_monitor.ino
+│ @@ -230,13 +230,56 @@
+│  /* ============ OLED: role states ============ */
+│  static void drawBase(bool isLocked) {
+│    display.clear();
+│ -  display.setFont(ArialMT_Plain_16);
+│ -  display.setTextAlignment(TEXT_ALIGN_CENTER);
+│ +  display.setFont(ArialMT_Plain_10);
+│ +  display.setTextAlignment(TEXT_ALIGN_LEFT);
+│ +  display.setColor(WHITE);
+│ +
+│ +  // Row 1: lock state + inches (1:1)
+│ +  float localIn = inchesDelta(livePa);
+│ +  if (localIn > 999.0f) localIn = 999.0f;
+│ +  if (localIn < -999.0f) localIn = -999.0f;
+│ +  char row1[20];
+│    if (isLocked) {
+│ -    display.drawString(64, 24, "Locked");
+│ -  } else {
+│ -    display.drawString(64, 24, "BASE");
+│ -  }
+│ +    snprintf(row1, sizeof(row1), "LK %+6.1f\"", localIn);
+│ +  } else {
+│ +    snprintf(row1, sizeof(row1), "   %+6.1f\"", localIn);
+│ +  }
+│ +  display.drawString(0, 0, row1);
+│ +
+│ +  // Row 2: TX success count
+│ +  char row2[16];
+│ +  if (txOk < 10000) {
+│ +    snprintf(row2, sizeof(row2), "TX %lu", txOk);
+│ +  } else {
+│ +    snprintf(row2, sizeof(row2), "TX %luk", txOk / 1000);
+│ +  }
+│ +  display.drawString(0, 12, row2);
+│ +
+│ +  // Row 3: RX success count + age
+│ +  char row3[24];
+│ +  unsigned long now = millis();
+│ +  unsigned long ageMs = (now > lastRxMs) ? (now - lastRxMs) : 0;
+│ +  if (rxOk < 10000) {
+│ +    if (ageMs < 10000) {
+│ +      snprintf(row3, sizeof(row3), "RX %lu %lus", rxOk, ageMs / 1000);
+│ +    } else {
+│ +      snprintf(row3, sizeof(row3), "RX %lu --", rxOk);
+│ +    }
+│ +  } else {
+│ +    snprintf(row3, sizeof(row3), "RX %luk %lus", rxOk / 1000, ageMs / 1000);
+│ +  }
+│ +  display.drawString(0, 24, row3);
+│ +
+│ +  // Row 4: TX errors + last radio status
+│ +  char row4[20];
+│ +  snprintf(row4, sizeof(row4), "E%lu st:%d", txFail, lastRadioStatus);
+│ +  display.drawString(0, 36, row4);
+│ +
+│ +  // Row 5: live Pa
+│ +  char row5[16];
+│ +  snprintf(row5, sizeof(row5), "%.0fPa", livePa);
+│ +  display.drawString(0, 48, row5);
+│ +
+│    display.display();
+│  }
+│
+│ bmp585_monitor/bmp585_monitor.ino
+│ @@ -626,7 +626,23 @@
+│        sendPacket();
+│      }
+│
+│ +    // brief non-blocking RX window to track peer frames (diagnostics only)
+│ +    DbPacket pkt;
+│ +    if (recvPacket(&pkt, 5)) {
+│ +      if ((pkt.flags & ROLE_STATIONARY) && pkt.uid != uid) {
+│ +        rxOk++;
+│ +        lastRxMs = now;
+│ +      }
+│ +    }
+│ +
+│      streamBle();
+│ +
+│ +    // serial diagnostics every ~1s
+│ +    if (now - lastDiagMs >= 1000) {
+│ +      lastDiagMs = now;
+│ +      Serial.printf("diag TX=%lu RX=%lu E=%lu st=%d in=%.1f Pa=%.0f locked=%d\n",
+│ +                    txOk, rxOk, txFail, lastRadioStatus, localIn, livePa, locked);
+│ +    }
+│
+│    } else if (role == 2) {
+│      // Monitoring DB
+│ bmp585_monitor/bmp585_monitor.ino
+│ @@ -567,6 +567,8 @@
+│        if ((pkt.flags & ROLE_STATIONARY) && pkt.uid != uid) {
+│          heardBase = true;
+│          lastBaseHearMs = millis();
+│ +        rxOk++;
+│ +        lastRxMs = millis();
+│          updateBaseTable(&pkt);
+│          Serial.printf("heard base uid=%lu\n", pkt.uid);
+│        }
+│ bmp585_monitor/bmp585_monitor.ino
+│ @@ -652,6 +652,8 @@
+│      if (recvPacket(&pkt, 10)) {
+│        if ((pkt.flags & ROLE_STATIONARY) && pkt.uid != getUid()) {
+│          lastBaseHearMs = millis();
+│ +        rxOk++;
+│ +        lastRxMs = millis();
+│          updateBaseTable(&pkt);
+│        }
+│      }
+│ /tmp/db_oled_layout.txt
+│ @@ -0,0 +1,24 @@
+│ +DirtBeetle OLED Layout (Stationary Role) - 128x64 SSD1306
+│ +Font: ArialMT_Plain_10, TEXT_ALIGN_LEFT, WHITE
+│ +
+│ +Row 1 (y=0):  "LK %+6.1f\""  (locked) or "   %+6.1f\"" (unlocked)
+│ +  Example: "LK +012.3\"" or "   -0.8\""
+│ +  Width: ~52px max (fits 128px easily)
+│ +
+│ +Row 2 (y=12): "TX %lu" or "TX %luk" (if >= 10000)
+│ +  Example: "TX 123" or "TX 12k"
+│ +  Width: ~30px max
+│ +
+│ +Row 3 (y=24): "RX %lu %lus" or "RX %lu --" (if age >= 10s)
+│ +  Example: "RX 0 3s" or "RX 5 --"
+│ +  Width: ~50px max
+│ +
+│ +Row 4 (y=36): "E%lu st:%d"
+│ +  Example: "E0 st:0" or "E3 st:-4"
+│ +  Width: ~40px max
+│ +
+│ +Row 5 (y=48): "%.0fPa"
+│ +  Example: "91868Pa"
+│ +  Width: ~45px max
+│ +
+│ +All rows fit within 128px width. No truncation needed.

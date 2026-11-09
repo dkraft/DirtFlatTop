@@ -1,0 +1,875 @@
+{
+  "platform": "cli",
+  "model": "external::mesh-llama-56113::Current meshbot LLM",
+  "system_prompt": {
+    "chars": 15334,
+    "bytes": 15763
+  },
+  "skills_index": {
+    "chars": 6797,
+    "bytes": 6817
+  },
+  "memory": {
+    "chars": 965,
+    "bytes": 1152
+  },
+  "user_profile": {
+    "chars": 276,
+    "bytes": 464
+  },
+  "tools": {
+    "count": 21,
+    "json_bytes": 40100
+  },
+  "sections": [
+    [
+      "stable (identity/guidance/skills)",
+      5336,
+      5364
+    ],
+    [
+      "context (AGENTS.md/cwd files)",
+      0,
+      0
+    ],
+    [
+      "volatile (memory/profile/timestamp)",
+      9996,
+      10397
+    ]
+  ],
+  "skills_breakdown": [
+    {
+      "name": "gepeto",
+      "index_line_bytes": 69,
+      "index_line_total_bytes": 69,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 42321,
+      "path": "/home/a/.hermes/skills/gepeto/SKILL.md"
+    },
+    {
+      "name": "claude-code",
+      "index_line_bytes": 70,
+      "index_line_total_bytes": 70,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 35175,
+      "path": "/home/a/.hermes/skills/autonomous-ai-agents/claude-code/SKILL.md"
+    },
+    {
+      "name": "humanizer",
+      "index_line_bytes": 65,
+      "index_line_total_bytes": 65,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 34463,
+      "path": "/home/a/.hermes/skills/creative/humanizer/SKILL.md"
+    },
+    {
+      "name": "p5js",
+      "index_line_bytes": 62,
+      "index_line_total_bytes": 62,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 27534,
+      "path": "/home/a/.hermes/skills/creative/p5js/SKILL.md"
+    },
+    {
+      "name": "claude-design",
+      "index_line_bytes": 78,
+      "index_line_total_bytes": 78,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 25204,
+      "path": "/home/a/.hermes/skills/creative/claude-design/SKILL.md"
+    },
+    {
+      "name": "comfyui",
+      "index_line_bytes": 76,
+      "index_line_total_bytes": 76,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 24287,
+      "path": "/home/a/.hermes/skills/creative/comfyui/SKILL.md"
+    },
+    {
+      "name": "pinokio",
+      "index_line_bytes": 72,
+      "index_line_total_bytes": 72,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 20908,
+      "path": "/home/a/.hermes/skills/pinokio/SKILL.md"
+    },
+    {
+      "name": "llm-wiki",
+      "index_line_bytes": 73,
+      "index_line_total_bytes": 73,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 20129,
+      "path": "/home/a/.hermes/skills/research/llm-wiki/SKILL.md"
+    },
+    {
+      "name": "computer-use",
+      "index_line_bytes": 75,
+      "index_line_total_bytes": 75,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 17989,
+      "path": "/home/a/.hermes/skills/autonomous-ai-agents/computer-use/SKILL.md"
+    },
+    {
+      "name": "xurl",
+      "index_line_bytes": 70,
+      "index_line_total_bytes": 70,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 16345,
+      "path": "/home/a/.hermes/skills/social-media/xurl/SKILL.md"
+    },
+    {
+      "name": "audiocraft-audio-generation",
+      "index_line_bytes": 94,
+      "index_line_total_bytes": 94,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 16189,
+      "path": "/home/a/.hermes/skills/mlops/models/audiocraft/SKILL.md"
+    },
+    {
+      "name": "hermes-agent",
+      "index_line_bytes": 80,
+      "index_line_total_bytes": 80,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 15952,
+      "path": "/home/a/.hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md"
+    },
+    {
+      "name": "touchdesigner-mcp",
+      "index_line_bytes": 84,
+      "index_line_total_bytes": 84,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 15429,
+      "path": "/home/a/.hermes/skills/creative/touchdesigner-mcp/SKILL.md"
+    },
+    {
+      "name": "pdf",
+      "index_line_bytes": 64,
+      "index_line_total_bytes": 64,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 15308,
+      "path": "/home/a/.hermes/skills/productivity/pdf/SKILL.md"
+    },
+    {
+      "name": "ascii-video",
+      "index_line_bytes": 77,
+      "index_line_total_bytes": 77,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 15011,
+      "path": "/home/a/.hermes/skills/creative/ascii-video/SKILL.md"
+    },
+    {
+      "name": "simplify-code",
+      "index_line_bytes": 69,
+      "index_line_total_bytes": 69,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 14696,
+      "path": "/home/a/.hermes/skills/software-development/simplify-code/SKILL.md"
+    },
+    {
+      "name": "notion",
+      "index_line_bytes": 72,
+      "index_line_total_bytes": 72,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 14629,
+      "path": "/home/a/.hermes/skills/productivity/notion/SKILL.md"
+    },
+    {
+      "name": "google-workspace",
+      "index_line_bytes": 83,
+      "index_line_total_bytes": 83,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 14241,
+      "path": "/home/a/.hermes/skills/productivity/google-workspace/SKILL.md"
+    },
+    {
+      "name": "pretext",
+      "index_line_bytes": 63,
+      "index_line_total_bytes": 63,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 14168,
+      "path": "/home/a/.hermes/skills/creative/pretext/SKILL.md"
+    },
+    {
+      "name": "systematic-debugging",
+      "index_line_bytes": 88,
+      "index_line_total_bytes": 88,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 14059,
+      "path": "/home/a/.hermes/skills/software-development/systematic-debugging/SKILL.md"
+    },
+    {
+      "name": "github-repo-management",
+      "index_line_bytes": 80,
+      "index_line_total_bytes": 80,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 13733,
+      "path": "/home/a/.hermes/skills/github/github-repo-management/SKILL.md"
+    },
+    {
+      "name": "github-code-review",
+      "index_line_bytes": 76,
+      "index_line_total_bytes": 76,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 13615,
+      "path": "/home/a/.hermes/skills/github/github-code-review/SKILL.md"
+    },
+    {
+      "name": "segment-anything-model",
+      "index_line_bytes": 89,
+      "index_line_total_bytes": 89,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 13372,
+      "path": "/home/a/.hermes/skills/mlops/models/segment-anything/SKILL.md"
+    },
+    {
+      "name": "python-debugpy",
+      "index_line_bytes": 68,
+      "index_line_total_bytes": 68,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 13172,
+      "path": "/home/a/.hermes/skills/software-development/python-debugpy/SKILL.md"
+    },
+    {
+      "name": "grounded-citations",
+      "index_line_bytes": 84,
+      "index_line_total_bytes": 84,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 12644,
+      "path": "/home/a/.hermes/skills/research/grounded-citations/SKILL.md"
+    },
+    {
+      "name": "weights-and-biases",
+      "index_line_bytes": 86,
+      "index_line_total_bytes": 86,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 12395,
+      "path": "/home/a/.hermes/skills/mlops/evaluation/weights-and-biases/SKILL.md"
+    },
+    {
+      "name": "manim-video",
+      "index_line_bytes": 69,
+      "index_line_total_bytes": 69,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 12150,
+      "path": "/home/a/.hermes/skills/creative/manim-video/SKILL.md"
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "index_line_bytes": 83,
+      "index_line_total_bytes": 83,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 12020,
+      "path": "/home/a/.hermes/skills/mlops/evaluation/lm-evaluation-harness/SKILL.md"
+    },
+    {
+      "name": "airtable",
+      "index_line_bytes": 75,
+      "index_line_total_bytes": 75,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 11334,
+      "path": "/home/a/.hermes/skills/productivity/airtable/SKILL.md"
+    },
+    {
+      "name": "songwriting-and-ai-music",
+      "index_line_bytes": 76,
+      "index_line_total_bytes": 76,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10963,
+      "path": "/home/a/.hermes/skills/creative/songwriting-and-ai-music/SKILL.md"
+    },
+    {
+      "name": "node-inspect-debugger",
+      "index_line_bytes": 88,
+      "index_line_total_bytes": 88,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10929,
+      "path": "/home/a/.hermes/skills/software-development/node-inspect-debugger/SKILL.md"
+    },
+    {
+      "name": "hermes-agent-skill-authoring",
+      "index_line_bytes": 86,
+      "index_line_total_bytes": 86,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10651,
+      "path": "/home/a/.hermes/skills/software-development/hermes-agent-skill-authoring/SKILL.md"
+    },
+    {
+      "name": "ascii-art",
+      "index_line_bytes": 68,
+      "index_line_total_bytes": 68,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10556,
+      "path": "/home/a/.hermes/skills/creative/ascii-art/SKILL.md"
+    },
+    {
+      "name": "baoyu-infographic",
+      "index_line_bytes": 85,
+      "index_line_total_bytes": 85,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10490,
+      "path": "/home/a/.hermes/skills/creative/baoyu-infographic/SKILL.md"
+    },
+    {
+      "name": "test-driven-development",
+      "index_line_bytes": 82,
+      "index_line_total_bytes": 82,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10300,
+      "path": "/home/a/.hermes/skills/software-development/test-driven-development/SKILL.md"
+    },
+    {
+      "name": "arxiv",
+      "index_line_bytes": 69,
+      "index_line_total_bytes": 69,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10061,
+      "path": "/home/a/.hermes/skills/research/arxiv/SKILL.md"
+    },
+    {
+      "name": "github-pr-workflow",
+      "index_line_bytes": 79,
+      "index_line_total_bytes": 79,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 10035,
+      "path": "/home/a/.hermes/skills/github/github-pr-workflow/SKILL.md"
+    },
+    {
+      "name": "popular-web-designs",
+      "index_line_bytes": 87,
+      "index_line_total_bytes": 87,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 9869,
+      "path": "/home/a/.hermes/skills/creative/popular-web-designs/SKILL.md"
+    },
+    {
+      "name": "github-issues",
+      "index_line_bytes": 80,
+      "index_line_total_bytes": 80,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 9315,
+      "path": "/home/a/.hermes/skills/github/github-issues/SKILL.md"
+    },
+    {
+      "name": "sketch",
+      "index_line_bytes": 69,
+      "index_line_total_bytes": 69,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 9304,
+      "path": "/home/a/.hermes/skills/creative/sketch/SKILL.md"
+    },
+    {
+      "name": "powerpoint",
+      "index_line_bytes": 75,
+      "index_line_total_bytes": 75,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 9298,
+      "path": "/home/a/.hermes/skills/productivity/powerpoint/SKILL.md"
+    },
+    {
+      "name": "android-apk-build",
+      "index_line_bytes": 84,
+      "index_line_total_bytes": 84,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 9127,
+      "path": "/home/a/.hermes/skills/software-development/android-apk-build/SKILL.md"
+    },
+    {
+      "name": "serving-llms-vllm",
+      "index_line_bytes": 85,
+      "index_line_total_bytes": 85,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 9071,
+      "path": "/home/a/.hermes/skills/mlops/inference/vllm/SKILL.md"
+    },
+    {
+      "name": "plan",
+      "index_line_bytes": 62,
+      "index_line_total_bytes": 62,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 8974,
+      "path": "/home/a/.hermes/skills/software-development/plan/SKILL.md"
+    },
+    {
+      "name": "llama-cpp",
+      "index_line_bytes": 73,
+      "index_line_total_bytes": 73,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 8880,
+      "path": "/home/a/.hermes/skills/mlops/inference/llama-cpp/SKILL.md"
+    },
+    {
+      "name": "requesting-code-review",
+      "index_line_bytes": 88,
+      "index_line_total_bytes": 88,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 8781,
+      "path": "/home/a/.hermes/skills/software-development/requesting-code-review/SKILL.md"
+    },
+    {
+      "name": "spike",
+      "index_line_bytes": 68,
+      "index_line_total_bytes": 68,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 8723,
+      "path": "/home/a/.hermes/skills/software-development/spike/SKILL.md"
+    },
+    {
+      "name": "dogfood",
+      "index_line_bytes": 72,
+      "index_line_total_bytes": 72,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 8652,
+      "path": "/home/a/.hermes/skills/software-development/dogfood/SKILL.md"
+    },
+    {
+      "name": "microsoft-office",
+      "index_line_bytes": 81,
+      "index_line_total_bytes": 81,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 8073,
+      "path": "/home/a/.hermes/skills/productivity/microsoft-office/SKILL.md"
+    },
+    {
+      "name": "github-auth",
+      "index_line_bytes": 75,
+      "index_line_total_bytes": 75,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 7596,
+      "path": "/home/a/.hermes/skills/github/github-auth/SKILL.md"
+    },
+    {
+      "name": "excalidraw",
+      "index_line_bytes": 72,
+      "index_line_total_bytes": 72,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 7300,
+      "path": "/home/a/.hermes/skills/creative/excalidraw/SKILL.md"
+    },
+    {
+      "name": "hardware-iot-build-plan",
+      "index_line_bytes": 89,
+      "index_line_total_bytes": 89,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 7295,
+      "path": "/home/a/.hermes/skills/hardware-iot-build-plan/SKILL.md"
+    },
+    {
+      "name": "himalaya",
+      "index_line_bytes": 60,
+      "index_line_total_bytes": 60,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 7272,
+      "path": "/home/a/.hermes/skills/email/himalaya/SKILL.md"
+    },
+    {
+      "name": "opencode",
+      "index_line_bytes": 70,
+      "index_line_total_bytes": 70,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 7259,
+      "path": "/home/a/.hermes/skills/autonomous-ai-agents/opencode/SKILL.md"
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "index_line_bytes": 87,
+      "index_line_total_bytes": 87,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 7206,
+      "path": "/home/a/.hermes/skills/productivity/teams-meeting-pipeline/SKILL.md"
+    },
+    {
+      "name": "design-md",
+      "index_line_bytes": 76,
+      "index_line_total_bytes": 76,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 7023,
+      "path": "/home/a/.hermes/skills/creative/design-md/SKILL.md"
+    },
+    {
+      "name": "hermes-desktop-plugins",
+      "index_line_bytes": 85,
+      "index_line_total_bytes": 85,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 6888,
+      "path": "/home/a/.hermes/skills/hermes-desktop-plugins/SKILL.md"
+    },
+    {
+      "name": "maps",
+      "index_line_bytes": 68,
+      "index_line_total_bytes": 68,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 6705,
+      "path": "/home/a/.hermes/skills/productivity/maps/SKILL.md"
+    },
+    {
+      "name": "heartmula",
+      "index_line_bytes": 73,
+      "index_line_total_bytes": 73,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 6412,
+      "path": "/home/a/.hermes/skills/media/heartmula/SKILL.md"
+    },
+    {
+      "name": "codex",
+      "index_line_bytes": 65,
+      "index_line_total_bytes": 65,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 5852,
+      "path": "/home/a/.hermes/skills/autonomous-ai-agents/codex/SKILL.md"
+    },
+    {
+      "name": "architecture-diagram",
+      "index_line_bytes": 86,
+      "index_line_total_bytes": 86,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 5830,
+      "path": "/home/a/.hermes/skills/creative/architecture-diagram/SKILL.md"
+    },
+    {
+      "name": "email-inbox-triage",
+      "index_line_bytes": 84,
+      "index_line_total_bytes": 84,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 5447,
+      "path": "/home/a/.hermes/skills/email/email-inbox-triage/SKILL.md"
+    },
+    {
+      "name": "jupyter-live-kernel",
+      "index_line_bytes": 76,
+      "index_line_total_bytes": 76,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 5285,
+      "path": "/home/a/.hermes/skills/data-science/jupyter-live-kernel/SKILL.md"
+    },
+    {
+      "name": "ocr-and-documents",
+      "index_line_bytes": 76,
+      "index_line_total_bytes": 76,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 5280,
+      "path": "/home/a/.hermes/skills/productivity/ocr-and-documents/SKILL.md"
+    },
+    {
+      "name": "blocked-page-recovery",
+      "index_line_bytes": 83,
+      "index_line_total_bytes": 83,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 5175,
+      "path": "/home/a/.hermes/skills/web/blocked-page-recovery/SKILL.md"
+    },
+    {
+      "name": "blogwatcher",
+      "index_line_bytes": 77,
+      "index_line_total_bytes": 77,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 5111,
+      "path": "/home/a/.hermes/skills/research/blogwatcher/SKILL.md"
+    },
+    {
+      "name": "wifi-dongle-stability",
+      "index_line_bytes": 87,
+      "index_line_total_bytes": 87,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 4793,
+      "path": "/home/a/.hermes/skills/devops/wifi-dongle-stability/SKILL.md"
+    },
+    {
+      "name": "competitor-news-monitor",
+      "index_line_bytes": 86,
+      "index_line_total_bytes": 86,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 4619,
+      "path": "/home/a/.hermes/skills/research/competitor-news-monitor/SKILL.md"
+    },
+    {
+      "name": "product-price-monitor",
+      "index_line_bytes": 87,
+      "index_line_total_bytes": 87,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 4396,
+      "path": "/home/a/.hermes/skills/productivity/product-price-monitor/SKILL.md"
+    },
+    {
+      "name": "youtube-content",
+      "index_line_bytes": 72,
+      "index_line_total_bytes": 72,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 4377,
+      "path": "/home/a/.hermes/skills/media/youtube-content/SKILL.md"
+    },
+    {
+      "name": "weekly-review-planning",
+      "index_line_bytes": 86,
+      "index_line_total_bytes": 86,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3955,
+      "path": "/home/a/.hermes/skills/productivity/weekly-review-planning/SKILL.md"
+    },
+    {
+      "name": "document-to-action-items",
+      "index_line_bytes": 91,
+      "index_line_total_bytes": 91,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3913,
+      "path": "/home/a/.hermes/skills/productivity/document-to-action-items/SKILL.md"
+    },
+    {
+      "name": "meeting-action-items",
+      "index_line_bytes": 85,
+      "index_line_total_bytes": 85,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3798,
+      "path": "/home/a/.hermes/skills/productivity/meeting-action-items/SKILL.md"
+    },
+    {
+      "name": "yuanbao",
+      "index_line_bytes": 73,
+      "index_line_total_bytes": 73,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3795,
+      "path": "/home/a/.hermes/skills/yuanbao/SKILL.md"
+    },
+    {
+      "name": "huggingface-hub",
+      "index_line_bytes": 81,
+      "index_line_total_bytes": 81,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3674,
+      "path": "/home/a/.hermes/skills/mlops/huggingface-hub/SKILL.md"
+    },
+    {
+      "name": "codebase-inspection",
+      "index_line_bytes": 80,
+      "index_line_total_bytes": 80,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3612,
+      "path": "/home/a/.hermes/skills/software-development/codebase-inspection/SKILL.md"
+    },
+    {
+      "name": "petdex",
+      "index_line_bytes": 68,
+      "index_line_total_bytes": 68,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3534,
+      "path": "/home/a/.hermes/skills/productivity/petdex/SKILL.md"
+    },
+    {
+      "name": "obsidian",
+      "index_line_bytes": 73,
+      "index_line_total_bytes": 73,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 3092,
+      "path": "/home/a/.hermes/skills/note-taking/obsidian/SKILL.md"
+    },
+    {
+      "name": "polymarket",
+      "index_line_bytes": 73,
+      "index_line_total_bytes": 73,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 2985,
+      "path": "/home/a/.hermes/skills/research/polymarket/SKILL.md"
+    },
+    {
+      "name": "gif-search",
+      "index_line_bytes": 64,
+      "index_line_total_bytes": 64,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 2720,
+      "path": "/home/a/.hermes/skills/media/gif-search/SKILL.md"
+    },
+    {
+      "name": "openhue",
+      "index_line_bytes": 71,
+      "index_line_total_bytes": 71,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 2713,
+      "path": "/home/a/.hermes/skills/smart-home/openhue/SKILL.md"
+    },
+    {
+      "name": "github",
+      "index_line_bytes": 67,
+      "index_line_total_bytes": 67,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 2446,
+      "path": "/home/a/.hermes/skills/software-development/github/SKILL.md"
+    },
+    {
+      "name": "heltec-lora-debugging",
+      "index_line_bytes": 82,
+      "index_line_total_bytes": 82,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 2439,
+      "path": "/home/a/.hermes/skills/heltec-lora-debugging/SKILL.md"
+    },
+    {
+      "name": "songsee",
+      "index_line_bytes": 71,
+      "index_line_total_bytes": 71,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 2336,
+      "path": "/home/a/.hermes/skills/media/songsee/SKILL.md"
+    },
+    {
+      "name": "nano-pdf",
+      "index_line_bytes": 73,
+      "index_line_total_bytes": 73,
+      "index_line_shared_bytes": 0,
+      "index_line_skill_count": 1,
+      "skill_md_bytes": 1414,
+      "path": "/home/a/.hermes/skills/productivity/nano-pdf/SKILL.md"
+    }
+  ],
+  "toolsets_breakdown": [
+    {
+      "toolset": "file",
+      "tool_count": 4,
+      "json_bytes": 5472
+    },
+    {
+      "toolset": "skills",
+      "tool_count": 3,
+      "json_bytes": 4738
+    },
+    {
+      "toolset": "delegation",
+      "tool_count": 1,
+      "json_bytes": 4673
+    },
+    {
+      "toolset": "connections",
+      "tool_count": 1,
+      "json_bytes": 4517
+    },
+    {
+      "toolset": "browser-use",
+      "tool_count": 1,
+      "json_bytes": 3383
+    },
+    {
+      "toolset": "code_execution",
+      "tool_count": 1,
+      "json_bytes": 3077
+    },
+    {
+      "toolset": "(unknown)",
+      "tool_count": 3,
+      "json_bytes": 2811
+    },
+    {
+      "toolset": "terminal",
+      "tool_count": 1,
+      "json_bytes": 2732
+    },
+    {
+      "toolset": "memory",
+      "tool_count": 1,
+      "json_bytes": 2585
+    },
+    {
+      "toolset": "web",
+      "tool_count": 2,
+      "json_bytes": 1927
+    },
+    {
+      "toolset": "clarify",
+      "tool_count": 1,
+      "json_bytes": 1780
+    },
+    {
+      "toolset": "tts",
+      "tool_count": 1,
+      "json_bytes": 1518
+    },
+    {
+      "toolset": "vision",
+      "tool_count": 1,
+      "json_bytes": 845
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+/dev/ttyUSB0: SX1262 init OK MAC=f0aee2c13de8 uid=f0aee2c1 power=0 dBm
+/dev/ttyUSB0: silence: becoming Stationary Base
+/dev/ttyUSB1: SX1262 init OK MAC=f0b0e2c13de8 uid=f0b0e2c1 power=0 dBm
+/dev/ttyUSB1: hearing base: becoming Monitoring DB
+Validated peer packets: 76, sequences 69..144, missing=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=69 len=19 Pa=92210.625 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=144 len=19 Pa=92210.109 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB0: diag TX=143 RX=0 E=0 st=0 in=10.7 Pa=92209 locked=0
+/dev/ttyUSB1: monitor RX=76 bases=1 localPa=92216.062 basePa=92210.109 diffIn=-21.01 rxErr=0 reject=0

@@ -1,0 +1,10 @@
+{"time": "2026-11-07T07:13:18.213-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92287.062 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:19.213-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.625 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:20.213-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.359 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:21.213-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.438 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:22.213-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.344 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:23.215-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92287.266 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:24.215-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.750 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:25.215-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.875 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:26.215-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.641 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-07T07:13:27.215-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92286.344 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}

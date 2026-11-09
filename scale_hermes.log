@@ -1,0 +1,25 @@
+**Diagnosis: formula error, prefactor is T0/(g·L) instead of T0/L**
+
+Current `altMeters()` in bmp585_monitor.ino (line 148):
+```cpp
+return (T0 / (g * L)) * (1.0f - powf(x, (Rd * L) / g));
+```
+
+Correct hypsometric equation:
+```
+h = (T0 / L) * (1 - (p/p0)^(Rd·L/g))
+```
+
+The code divides by `g` where it shouldn't. Numerically:
+- T0/(g·L) = 288.15/(9.80665·0.0065) = 4520 m (wrong)
+- T0/L = 288.15/0.0065 = 44331 m (correct, matches library's 44307.7)
+
+This makes altitudes 9.80665× too small. A 24-inch (0.61 m) lift computes as 0.61/9.80665 = 0.062 m = 2.45 inches. Matches your observation of 2.4.
+
+The exponent (Rd·L/g = 0.190284) is correct and matches the library's 1/5.255.
+
+**Old backup (bmp585_monitor.ino.bak_pre_db):** has the same T0/(g·L) error in altMeters() but compensates with `* 6.0f` in inchesDelta() (line 141), making it a 6:1 scale rather than true 1:1 inches. The current version removed the 6× multiplier and claims 1:1, exposing the formula error.
+
+**Fix:** change line 148 from `(T0 / (g * L))` to `(T0 / L)`.
+
+session_id: local-f09dc369696917da66f15320196fb5c75b00295e10cc7920639fa0e42a196368

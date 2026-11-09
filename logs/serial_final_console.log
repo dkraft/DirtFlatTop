@@ -1,0 +1,34 @@
+# {"device": "original", "port": "/dev/ttyUSB0", "usb": "10c4:ea60", "known_mac_at_location": "e8:3d:c1:e2:ae:f0", "identity": "location metadata only; MAC not queried", "python": "/usr/bin/python3"}
+# {"device": "second", "port": "/dev/ttyUSB1", "usb": "10c4:ea60", "known_mac_at_location": "e8:3d:c1:e2:b0:f0", "identity": "location metadata only; MAC not queried", "python": "/usr/bin/python3"}
+2026-11-07T05:59:07.622-05:00 EST second RX uid=f0aee2c1 seq=2410 len=19 Pa=92216.094 RSSI=-36.0 SNR=12.2
+2026-11-07T05:59:07.862-05:00 EST second RX uid=f0aee2c1 seq=2411 len=19 Pa=92216.516 RSSI=-36.0 SNR=13.0
+2026-11-07T05:59:08.110-05:00 EST second RX uid=f0aee2c1 seq=2412 len=19 Pa=92214.125 RSSI=-36.0 SNR=13.0
+2026-11-07T05:59:08.231-05:00 EST original diag TX=2413 RX=0 E=0 st=0 in=-14.6 Pa=92216 locked=0
+2026-11-07T05:59:08.348-05:00 EST second RX uid=f0aee2c1 seq=2413 len=19 Pa=92214.828 RSSI=-37.0 SNR=12.2
+2026-11-07T05:59:08.432-05:00 EST second monitor RX=2345 bases=1 localPa=92223.141 basePa=92214.828 diffIn=-29.34 rxErr=0 reject=0
+2026-11-07T05:59:08.587-05:00 EST second RX uid=f0aee2c1 seq=2414 len=19 Pa=92218.016 RSSI=-36.0 SNR=12.5
+2026-11-07T05:59:08.824-05:00 EST second RX uid=f0aee2c1 seq=2415 len=19 Pa=92216.047 RSSI=-36.0 SNR=12.0
+2026-11-07T05:59:09.064-05:00 EST second RX uid=f0aee2c1 seq=2416 len=19 Pa=92216.828 RSSI=-36.0 SNR=12.8
+2026-11-07T05:59:09.231-05:00 EST original diag TX=2417 RX=0 E=0 st=0 in=-17.4 Pa=92217 locked=0
+2026-11-07T05:59:09.303-05:00 EST second RX uid=f0aee2c1 seq=2417 len=19 Pa=92217.266 RSSI=-36.0 SNR=13.0
+2026-11-07T05:59:09.432-05:00 EST second monitor RX=2349 bases=1 localPa=92220.438 basePa=92217.266 diffIn=-11.24 rxErr=0 reject=0
+2026-11-07T05:59:09.543-05:00 EST second RX uid=f0aee2c1 seq=2418 len=19 Pa=92216.938 RSSI=-36.0 SNR=13.0
+2026-11-07T05:59:09.784-05:00 EST second RX uid=f0aee2c1 seq=2419 len=19 Pa=92216.000 RSSI=-36.0 SNR=12.5
+2026-11-07T05:59:10.025-05:00 EST second RX uid=f0aee2c1 seq=2420 len=19 Pa=92216.734 RSSI=-36.0 SNR=12.5
+2026-11-07T05:59:10.263-05:00 EST second RX uid=f0aee2c1 seq=2421 len=19 Pa=92216.281 RSSI=-36.0 SNR=12.5
+2026-11-07T05:59:10.273-05:00 EST original diag TX=2422 RX=0 E=0 st=0 in=-21.7 Pa=92218 locked=0
+2026-11-07T05:59:10.432-05:00 EST second monitor RX=2353 bases=1 localPa=92221.469 basePa=92216.281 diffIn=-18.31 rxErr=0 reject=0
+2026-11-07T05:59:10.507-05:00 EST second RX uid=f0aee2c1 seq=2422 len=19 Pa=92216.578 RSSI=-37.0 SNR=12.0
+2026-11-07T05:59:10.743-05:00 EST second RX uid=f0aee2c1 seq=2423 len=19 Pa=92217.359 RSSI=-36.0 SNR=13.0
+2026-11-07T05:59:10.986-05:00 EST second RX uid=f0aee2c1 seq=2424 len=19 Pa=92218.656 RSSI=-36.0 SNR=12.0
+2026-11-07T05:59:11.223-05:00 EST second RX uid=f0aee2c1 seq=2425 len=19 Pa=92217.672 RSSI=-36.0 SNR=12.5
+2026-11-07T05:59:11.274-05:00 EST original diag TX=2426 RX=0 E=0 st=0 in=-11.3 Pa=92215 locked=0
+2026-11-07T05:59:11.432-05:00 EST second monitor RX=2357 bases=1 localPa=92220.250 basePa=92217.672 diffIn=-9.16 rxErr=0 reject=0
+2026-11-07T05:59:11.467-05:00 EST second RX uid=f0aee2c1 seq=2426 len=19 Pa=92216.703 RSSI=-36.0 SNR=12.8
+2026-11-07T05:59:11.702-05:00 EST second RX uid=f0aee2c1 seq=2427 len=19 Pa=92216.766 RSSI=-36.0 SNR=12.8
+2026-11-07T05:59:11.944-05:00 EST second RX uid=f0aee2c1 seq=2428 len=19 Pa=92216.984 RSSI=-36.0 SNR=12.5
+2026-11-07T05:59:12.184-05:00 EST second RX uid=f0aee2c1 seq=2429 len=19 Pa=92216.875 RSSI=-36.0 SNR=12.8
+2026-11-07T05:59:12.275-05:00 EST original diag TX=2430 RX=0 E=0 st=0 in=-20.2 Pa=92218 locked=0
+2026-11-07T05:59:12.427-05:00 EST second RX uid=f0aee2c1 seq=2430 len=19 Pa=92217.312 RSSI=-36.0 SNR=13.0
+2026-11-07T05:59:12.440-05:00 EST second monitor RX=2362 bases=1 localPa=92223.188 basePa=92217.312 diffIn=-20.80 rxErr=0 reject=0
+# SUMMARY {"lines": {"original": 5, "second": 26}, "boot_markers": {"original": 0, "second": 0}, "log": "/home/a/DirtFlatTop/logs/serial_20261107_055907_EST.jsonl", "reset_requested": [], "complete": true}

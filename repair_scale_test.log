@@ -1,0 +1,5 @@
+known movement=+0.0 in basePa=91900.000 localPa=91900.000000 corrected=+0.000000 in old_no_multiplier=+0.000000 in
+known movement=+24.0 in basePa=91900.000 localPa=91893.233760 corrected=+24.000013 in old_no_multiplier=+2.447320 in
+known movement=-24.0 in basePa=91900.000 localPa=91906.766644 corrected=-24.000013 in old_no_multiplier=-2.447320 in
+known movement=+120.0 in basePa=91900.000 localPa=91866.172831 corrected=+120.000065 in old_no_multiplier=+12.236601 in
+PASS analytical test; physical known-height verification still required.

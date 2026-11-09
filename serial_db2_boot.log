@@ -1,0 +1,8 @@
+BMP585 init OK
+SX1262 init OK
+settling 3000 ms
+zero locked at 91866.7 Pa
+listening 2312 ms for base beacons
+silence: becoming Stationary Base
+BLE advertising
+ready

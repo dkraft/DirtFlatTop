@@ -1,0 +1,4 @@
+Library Heltec ESP32 Dev-Boards has been declared precompiled:
+Using precompiled library in /home/a/Arduino/libraries/Heltec_ESP32_Dev-Boards/src/esp32s3
+Sketch uses 673720 bytes (20%) of program storage space. Maximum is 3342336 bytes.
+Global variables use 32468 bytes (9%) of dynamic memory, leaving 295212 bytes for local variables. Maximum is 327680 bytes.

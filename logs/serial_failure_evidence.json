@@ -1,0 +1,67 @@
+{
+  "session_id": "local-172502720a3611096e5bd3b225058a665da6bf8f5a0959ed4c1be48908a5b577",
+  "cwd": "/home/a/.hermes",
+  "exported_api_calls": 2352,
+  "note": "Counts describe records in one exported session, not independent new sessions or necessarily distinct realtime failures. Permission-denied example is an esptool script execution error.",
+  "counts": {
+    "Python/pyserial interpreter mismatch": 79,
+    "Bare pip targeted system Python 3.10, not Hermes Python": 1,
+    "Invalid stty syntax": 2,
+    "Expected deadline exit124 from timeout capture": 470,
+    "esptool absent PATH": 73,
+    "Script executable permission (NOT serial-port permissions)": 73,
+    "Serial port busy": 1
+  },
+  "exit124_records_with_output": 125,
+  "examples": [
+    {
+      "message_index": 28,
+      "category": "Python/pyserial interpreter mismatch",
+      "command": "python3 -c \"\nimport serial, time\ns = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)\ntime.sleep(0.5)\nend = time.time() + 15\nwhile time.time() < end:\n    if s.in_waiting:\n        for line in s.read_all().decode(errors='replace').splitlines():\n            if line.strip(): print(line)\ns.close()\n\"",
+      "tool_timeout_seconds": 20,
+      "output": "Traceback (most recent call last):\n  File \"<string>\", line 2, in <module>\n    import serial, time\nModuleNotFoundError: No module named 'serial'"
+    },
+    {
+      "message_index": 30,
+      "category": "Bare pip targeted system Python 3.10, not Hermes Python",
+      "command": "pip install pyserial",
+      "tool_timeout_seconds": null,
+      "output": "Defaulting to user installation because normal site-packages is not writeable\nRequirement already satisfied: pyserial in /home/a/.local/lib/python3.10/site-packages (3.5)\n\n[notice] A new release of pip is available: 26.0.1 -> 26.3\n[notice] To update, run: /usr/bin/python3 -m pip install --upgrade pip"
+    },
+    {
+      "message_index": 42,
+      "category": "Invalid stty syntax",
+      "command": "stty -F /dev/ttyUSB0 -echo -icanon -icrnl -isig -ixon -iextc -opost -onlcr -echo -echoe -echok -echonl -cr0 -lmap -eol -eol2 -extended -intr -quit -susp -start -stop -min -time -cc 0 -speed 115200 -cs8 -parenb -parodd -evenp -oddc -cstopb -hupcl -flush",
+      "tool_timeout_seconds": null,
+      "output": "stty: invalid argument \u2018-iextc\u2019\nTry 'stty --help' for more information."
+    },
+    {
+      "message_index": 262,
+      "category": "Expected deadline exit124 from timeout capture",
+      "command": "timeout 15 cat /dev/ttyUSB0",
+      "tool_timeout_seconds": 20,
+      "output": "diag TX=114 RX=0 E=0 st=0 in=0.2 Pa=91961 locked=0\ndiag TX=118 RX=0 E=0 st=0 in=0.7 Pa=91959 locked=0\ndiag TX=121 RX=0 E=0 st=0 in=0.6 Pa=91959 locked=0\ndiag TX=125 RX=0 E=0 st=0 in=0.0 Pa=91961 locked=0\ndiag TX=129 RX=0 E=0 st=0 in=0.3 Pa=91960 locked=0\ndiag TX=132 RX=0 E=0 st=0 in=1.0 Pa=91958 locked=0\ndiag TX=136 RX=0 E=0 st=0 in=0.4 Pa=91960 locked=0\ndiag TX=139 RX=0 E=0 st=0 in=0.1 Pa=91961 locked=0\ndiag TX=143 RX=0 E=0 st=0 in=0.3 Pa=91960 locked=0\ndiag TX=147 RX=0 E=0 st=0 in=0.6 Pa=91960 locked=0\ndiag TX=150 RX=0 E=0 st=0 in=0.5 Pa=91960 locked=0\ndiag TX=154 RX=0 E=0 st=0 in=0.1 Pa=91961 locked=0\ndiag TX=158 RX=0 E=0 st=0 in=0.6 Pa=91960 locked=0\ndiag TX=161 RX=0 E=0 st=0 in=0.6 Pa=91960 locked=0"
+    },
+    {
+      "message_index": 719,
+      "category": "esptool absent PATH",
+      "command": "esptool.py --port /dev/ttyUSB0 chip_id",
+      "tool_timeout_seconds": null,
+      "output": "/usr/bin/bash: line 7: esptool.py: command not found"
+    },
+    {
+      "message_index": 725,
+      "category": "Script executable permission (NOT serial-port permissions)",
+      "command": "/home/a/.platformio/packages/tool-esptoolpy/esptool.py --port /dev/ttyUSB0 chip_id",
+      "tool_timeout_seconds": null,
+      "output": "/usr/bin/bash: line 7: /home/a/.platformio/packages/tool-esptoolpy/esptool.py: Permission denied"
+    },
+    {
+      "message_index": 6358,
+      "category": "Serial port busy",
+      "command": "cd /home/a/DirtFlatTop && ~/.local/bin/arduino-cli upload -p /dev/ttyUSB0 --fqbn esp32:esp32:heltec_wifi_lora_32_V3 radiolib_pingpong",
+      "tool_timeout_seconds": 120,
+      "output": "esptool.py v4.8.1\nSerial port /dev/ttyUSB0\n\nA fatal error occurred: Could not open /dev/ttyUSB0, the port is busy or doesn't exist.\n([Errno 11] Could not exclusively lock port /dev/ttyUSB0: [Errno 11] Resource temporarily unavailable)\n\nFailed uploading: uploading error: exit status 2"
+    }
+  ]
+}

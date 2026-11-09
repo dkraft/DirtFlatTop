@@ -1,0 +1,16 @@
+{"time": "2026-11-07T06:53:09.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92253.875 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:09.368-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92260.062 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:10.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92254.344 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:10.367-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92260.234 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:11.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92253.969 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:11.367-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92259.922 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:12.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92253.562 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:12.367-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92260.328 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:13.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92254.078 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:13.367-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92260.109 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:14.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92253.906 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:14.369-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92260.281 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:15.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92253.484 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:15.369-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92260.172 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:16.313-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "monitor RX=0 bases=0 localPa=92254.078 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:53:16.369-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92260.266 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}

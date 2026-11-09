@@ -1,0 +1,30 @@
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "ESP-ROM:esp32s3-20210327"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "Build:Mar 27 2021"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "SPIWP:0xee"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "mode:DIO, clock div:1"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "load:0x3fce2820,len:0x1188"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "load:0x403c8700,len:0x4"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "load:0x403c8704,len:0xbf0"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "load:0x403cb700,len:0x30e4"}
+{"time": "2026-11-07T06:59:07.257-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "entry 0x403c88ac"}
+{"time": "2026-11-07T06:59:07.723-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "BMP585 init OK"}
+{"time": "2026-11-07T06:59:07.800-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "radio begin=0"}
+{"time": "2026-11-07T06:59:07.801-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "radio DIO2=0"}
+{"time": "2026-11-07T06:59:07.802-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "radio CRC=0"}
+{"time": "2026-11-07T06:59:07.807-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "SX1262 init OK MAC=f0b0e2c13de8 uid=f0b0e2c1 power=0 dBm"}
+{"time": "2026-11-07T06:59:07.808-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "settling 3000 ms"}
+{"time": "2026-11-07T06:59:10.801-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "livePa=92263.91 Pa"}
+{"time": "2026-11-07T06:59:10.803-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "altMeters(livePa)=783.159729 m"}
+{"time": "2026-11-07T06:59:10.806-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "altMeters(101325)=0.000000 m"}
+{"time": "2026-11-07T06:59:10.809-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "diff=783.159729 m = 30833.0762 in"}
+{"time": "2026-11-07T06:59:10.811-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "zero locked at 92263.9 Pa"}
+{"time": "2026-11-07T06:59:10.815-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "MAC=f0b0e2c13de8 mac4=0xb0"}
+{"time": "2026-11-07T06:59:10.816-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "MAC b0:f0: Monitoring DB"}
+{"time": "2026-11-07T06:59:10.853-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "BLE advertising"}
+{"time": "2026-11-07T06:59:10.854-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "ready"}
+{"time": "2026-11-07T06:59:10.888-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92264.062 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:59:11.888-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92263.031 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:59:12.889-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92263.531 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:59:13.889-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92263.422 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:59:14.888-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92263.016 basePa=0.000 diffIn=0.00 rxErr=0 reject=0"}

@@ -1,0 +1,20 @@
+{"time": "2026-11-08T04:35:32.009-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92451.484 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:32.593-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326647 RX=0 E=0 st=0 in=-608.3 Pa=92445 locked=1"}
+{"time": "2026-11-08T04:35:33.009-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92452.016 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:33.594-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326651 RX=0 E=0 st=0 in=-609.6 Pa=92446 locked=1"}
+{"time": "2026-11-08T04:35:34.009-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92450.750 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:34.595-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326655 RX=0 E=0 st=0 in=-609.5 Pa=92446 locked=1"}
+{"time": "2026-11-08T04:35:35.009-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92450.984 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:35.616-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326660 RX=0 E=0 st=0 in=-607.7 Pa=92445 locked=1"}
+{"time": "2026-11-08T04:35:36.011-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92450.984 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:36.617-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326664 RX=0 E=0 st=0 in=-609.1 Pa=92445 locked=1"}
+{"time": "2026-11-08T04:35:37.011-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92451.594 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:37.617-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326668 RX=0 E=0 st=0 in=-610.2 Pa=92446 locked=1"}
+{"time": "2026-11-08T04:35:38.011-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92451.406 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:38.618-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326672 RX=0 E=0 st=0 in=-609.9 Pa=92446 locked=1"}
+{"time": "2026-11-08T04:35:39.011-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92451.703 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:39.618-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326676 RX=0 E=0 st=0 in=-608.9 Pa=92445 locked=1"}
+{"time": "2026-11-08T04:35:40.011-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92451.328 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:40.632-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326681 RX=0 E=0 st=0 in=-607.9 Pa=92445 locked=1"}
+{"time": "2026-11-08T04:35:41.013-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=0 bases=0 localPa=92451.141 basePa=0.000 diffIn=0.00 rxErr=0 reject=0 isr=0 rssi=-48.0 len=0"}
+{"time": "2026-11-08T04:35:41.634-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=326685 RX=0 E=0 st=0 in=-609.2 Pa=92445 locked=1"}

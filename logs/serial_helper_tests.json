@@ -1,0 +1,20 @@
+{
+  "busy_test": {
+    "exit": 2,
+    "error": "ERROR: /dev/ttyUSB0 busy; owner PID(s): 2413011. Stop the known monitor normally, then retry once."
+  },
+  "capture_exit": 0,
+  "capture_summary": [
+    "# SUMMARY {\"lines\": {\"original\": 5, \"second\": 26}, \"boot_markers\": {\"original\": 0, \"second\": 0}, \"log\": \"/home/a/DirtFlatTop/logs/serial_20261107_055907_EST.jsonl\", \"reset_requested\": [], \"complete\": true}"
+  ],
+  "v4_refusal": {
+    "exit": 2,
+    "error": "ERROR: Only CP2102 ttyUSB ports allowed; V4 ttyACM ports are prohibited"
+  },
+  "interpreter_fallback": {
+    "exit": 0,
+    "notice": "# pyserial absent in /home/a/.hermes/installs/45626819cf168545/environments/7d1ade2737764274a03d54a3dc404af8/venv/bin/python3; re-executing /usr/bin/python3"
+  },
+  "remaining_port_owners": "",
+  "offline_prompt_size_json_valid": true
+}

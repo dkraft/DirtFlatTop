@@ -1,0 +1,17 @@
+BMP585 init OK
+SX1262 init OK
+settling 3000 ms
+zero locked at 91871.5 Pa
+listening 2312 ms for base beacons
+silence: becoming Stationary Base
+BLE advertising
+ready
+diag TX=1 RX=0 E=0 st=0 in=-0.3 Pa=91872 locked=0
+diag TX=5 RX=0 E=0 st=0 in=-0.3 Pa=91872 locked=0
+diag TX=9 RX=0 E=0 st=0 in=-0.2 Pa=91872 locked=0
+diag TX=13 RX=0 E=0 st=0 in=-0.2 Pa=91872 locked=0
+diag TX=18 RX=0 E=0 st=0 in=0.0 Pa=91872 locked=0
+diag TX=22 RX=0 E=0 st=0 in=0.1 Pa=91871 locked=0
+diag TX=26 RX=0 E=0 st=0 in=-0.5 Pa=91873 locked=0
+diag TX=30 RX=0 E=0 st=0 in=-0.7 Pa=91873 locked=0
+diag TX=34 RX=0 E=0 st=0 in=0.1 Pa=91871 locked=0

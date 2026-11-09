@@ -1,0 +1,94 @@
+/dev/ttyUSB0: ESP-ROM:esp32s3-20210327
+/dev/ttyUSB0: Build:Mar 27 2021
+/dev/ttyUSB0: rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+/dev/ttyUSB0: SPIWP:0xee
+/dev/ttyUSB0: mode:DIO, clock div:1
+/dev/ttyUSB0: load:0x3fce2820,len:0x1188
+/dev/ttyUSB0: load:0x403c8700,len:0x4
+/dev/ttyUSB1: ESP-ROM:esp32s3-20210327
+/dev/ttyUSB0: load:0x403c8704,len:0xbf0
+/dev/ttyUSB0: load:0x403cb700,len:0x30e4
+/dev/ttyUSB1: Build:Mar 27 2021
+/dev/ttyUSB0: entry 0x403c88ac
+/dev/ttyUSB1: rst:0x1 (POWERON),boot:0x29 (SPI_FAST_FLASH_BOOT)
+/dev/ttyUSB1: SPIWP:0xee
+/dev/ttyUSB1: mode:DIO, clock div:1
+/dev/ttyUSB1: load:0x3fce2820,len:0x1188
+/dev/ttyUSB1: load:0x403c8700,len:0x4
+/dev/ttyUSB1: load:0x403c8704,len:0xbf0
+/dev/ttyUSB1: load:0x403cb700,len:0x30e4
+/dev/ttyUSB1: entry 0x403c88ac
+/dev/ttyUSB0: DB_PROBE uid=f0aee2c1 MAC=f0aee2c13de8
+/dev/ttyUSB1: DB_PROBE uid=f0b0e2c1 MAC=f0b0e2c13de8
+/dev/ttyUSB0: begin=0
+/dev/ttyUSB0: DIO2=0
+/dev/ttyUSB0: CRC=0
+/dev/ttyUSB0: startRX=0
+/dev/ttyUSB1: begin=0
+/dev/ttyUSB1: DIO2=0
+/dev/ttyUSB1: CRC=0
+/dev/ttyUSB1: startRX=0
+/dev/ttyUSB0: TX seq=1 st=0 RXtotal=0
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-37.0 SNR=13.0 data=DB_PROBE uid=f0aee2c1 seq=1
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=1 st=0 RXtotal=1
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-38.0 SNR=12.8 data=DB_PROBE uid=f0b0e2c1 seq=1
+/dev/ttyUSB0: rearm=0
+/dev/ttyUSB0: TX seq=2 st=0 RXtotal=1
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-37.0 SNR=13.0 data=DB_PROBE uid=f0aee2c1 seq=2
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=2 st=0 RXtotal=2
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-38.0 SNR=12.8 data=DB_PROBE uid=f0b0e2c1 seq=2
+/dev/ttyUSB0: rearm=0
+/dev/ttyUSB0: TX seq=3 st=0 RXtotal=2
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-37.0 SNR=12.5 data=DB_PROBE uid=f0aee2c1 seq=3
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=3 st=0 RXtotal=3
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-38.0 SNR=12.5 data=DB_PROBE uid=f0b0e2c1 seq=3
+/dev/ttyUSB0: rearm=0
+/dev/ttyUSB0: TX seq=4 st=0 RXtotal=3
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-38.0 SNR=13.5 data=DB_PROBE uid=f0aee2c1 seq=4
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=4 st=0 RXtotal=4
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-39.0 SNR=13.0 data=DB_PROBE uid=f0b0e2c1 seq=4
+/dev/ttyUSB0: rearm=0
+/dev/ttyUSB0: TX seq=5 st=0 RXtotal=4
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-38.0 SNR=12.5 data=DB_PROBE uid=f0aee2c1 seq=5
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=5 st=0 RXtotal=5
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-40.0 SNR=12.0 data=DB_PROBE uid=f0b0e2c1 seq=5
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: rearm=0
+/dev/ttyUSB0: TX seq=6 st=0 RXtotal=5
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-36.0 SNR=12.2 data=DB_PROBE uid=f0aee2c1 seq=6
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=6 st=0 RXtotal=6
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-38.0 SNR=11.8 data=DB_PROBE uid=f0b0e2c1 seq=6
+/dev/ttyUSB0: rearm=0
+/dev/ttyUSB0: TX seq=7 st=0 RXtotal=6
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-36.0 SNR=13.0 data=DB_PROBE uid=f0aee2c1 seq=7
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=7 st=0 RXtotal=7
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-38.0 SNR=13.0 data=DB_PROBE uid=f0b0e2c1 seq=7
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: rearm=0
+/dev/ttyUSB0: TX seq=8 st=0 RXtotal=7
+/dev/ttyUSB0: postTX_RX=0
+/dev/ttyUSB1: RX n=27 st=0 RSSI=-37.0 SNR=12.8 data=DB_PROBE uid=f0aee2c1 seq=8
+/dev/ttyUSB1: rearm=0
+/dev/ttyUSB1: TX seq=8 st=0 RXtotal=8
+/dev/ttyUSB0: RX n=27 st=0 RSSI=-38.0 SNR=13.0 data=DB_PROBE uid=f0b0e2c1 seq=8
+/dev/ttyUSB1: postTX_RX=0
+/dev/ttyUSB0: rearm=0

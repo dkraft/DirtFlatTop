@@ -1,0 +1,187 @@
+/dev/ttyUSB0: ESP-ROM:esp32s3-20210327
+/dev/ttyUSB0: Build:Mar 27 2021
+/dev/ttyUSB0: rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+/dev/ttyUSB0: SPIWP:0xee
+/dev/ttyUSB0: mode:DIO, clock div:1
+/dev/ttyUSB0: load:0x3fce2820,len:0x1188
+/dev/ttyUSB0: load:0x403c8700,len:0x4
+/dev/ttyUSB0: load:0x403c8704,len:0xbf0
+/dev/ttyUSB0: load:0x403cb700,len:0x30e4
+/dev/ttyUSB0: entry 0x403c88ac
+/dev/ttyUSB0: BMP585 init OK
+/dev/ttyUSB0: radio begin=0
+/dev/ttyUSB0: radio DIO2=0
+/dev/ttyUSB0: radio CRC=0
+/dev/ttyUSB0: SX1262 init OK MAC=f0aee2c13de8 uid=f0aee2c1 power=0 dBm
+/dev/ttyUSB0: settling 3000 ms
+/dev/ttyUSB0: livePa=92212.22 Pa
+/dev/ttyUSB0: altMeters(livePa)=787.802307 m
+/dev/ttyUSB0: altMeters(101325)=0.000000 m
+/dev/ttyUSB0: diff=787.802307 m = 31015.8535 in
+/dev/ttyUSB0: zero locked at 92212.2 Pa
+/dev/ttyUSB0: listening 2353 ms for base beacons
+/dev/ttyUSB0: silence: becoming Stationary Base
+/dev/ttyUSB0: BLE advertising
+/dev/ttyUSB0: ready
+/dev/ttyUSB0: diag TX=1 RX=0 E=0 st=0 in=2.9 Pa=92211 locked=0
+/dev/ttyUSB0: diag TX=5 RX=0 E=0 st=0 in=1.9 Pa=92212 locked=0
+/dev/ttyUSB0: diag TX=9 RX=0 E=0 st=0 in=-3.2 Pa=92213 locked=0
+/dev/ttyUSB0: diag TX=13 RX=0 E=0 st=0 in=4.1 Pa=92211 locked=0
+/dev/ttyUSB0: diag TX=17 RX=0 E=0 st=0 in=7.1 Pa=92210 locked=0
+/dev/ttyUSB0: diag TX=21 RX=0 E=0 st=0 in=7.2 Pa=92210 locked=0
+/dev/ttyUSB0: diag TX=26 RX=0 E=0 st=0 in=5.6 Pa=92211 locked=0
+/dev/ttyUSB0: diag TX=30 RX=0 E=0 st=0 in=-2.8 Pa=92213 locked=0
+/dev/ttyUSB0: diag TX=34 RX=0 E=0 st=0 in=7.4 Pa=92210 locked=0
+/dev/ttyUSB0: diag TX=38 RX=0 E=0 st=0 in=5.3 Pa=92211 locked=0
+/dev/ttyUSB0: diag TX=42 RX=0 E=0 st=0 in=4.2 Pa=92211 locked=0
+/dev/ttyUSB0: diag TX=47 RX=0 E=0 st=0 in=-0.1 Pa=92212 locked=0
+/dev/ttyUSB0: diag TX=51 RX=0 E=0 st=0 in=4.1 Pa=92211 locked=0
+/dev/ttyUSB1: ESP-ROM:esp32s3-20210327
+/dev/ttyUSB1: Build:Mar 27 2021
+/dev/ttyUSB1: rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+/dev/ttyUSB1: SPIWP:0xee
+/dev/ttyUSB1: mode:DIO, clock div:1
+/dev/ttyUSB1: load:0x3fce2820,len:0x1188
+/dev/ttyUSB1: load:0x403c8700,len:0x4
+/dev/ttyUSB1: load:0x403c8704,len:0xbf0
+/dev/ttyUSB1: load:0x403cb700,len:0x30e4
+/dev/ttyUSB1: entry 0x403c88ac
+/dev/ttyUSB0: diag TX=55 RX=0 E=0 st=0 in=6.1 Pa=92210 locked=0
+/dev/ttyUSB1: BMP585 init OK
+/dev/ttyUSB1: radio begin=0
+/dev/ttyUSB1: radio DIO2=0
+/dev/ttyUSB1: radio CRC=0
+/dev/ttyUSB1: SX1262 init OK MAC=f0b0e2c13de8 uid=f0b0e2c1 power=0 dBm
+/dev/ttyUSB1: settling 3000 ms
+/dev/ttyUSB0: diag TX=59 RX=0 E=0 st=0 in=6.6 Pa=92210 locked=0
+/dev/ttyUSB0: diag TX=63 RX=0 E=0 st=0 in=4.1 Pa=92211 locked=0
+/dev/ttyUSB0: diag TX=68 RX=0 E=0 st=0 in=4.2 Pa=92211 locked=0
+/dev/ttyUSB1: livePa=92214.92 Pa
+/dev/ttyUSB1: altMeters(livePa)=787.559204 m
+/dev/ttyUSB1: altMeters(101325)=0.000000 m
+/dev/ttyUSB1: diff=787.559204 m = 31006.2832 in
+/dev/ttyUSB1: zero locked at 92214.9 Pa
+/dev/ttyUSB1: listening 2225 ms for base beacons
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=69 len=19 Pa=92210.625 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=70 len=19 Pa=92210.453 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=71 len=19 Pa=92211.609 RSSI=-36.0 SNR=13.0
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB0: diag TX=72 RX=0 E=0 st=0 in=7.4 Pa=92210 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=72 len=19 Pa=92211.359 RSSI=-36.0 SNR=12.0
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=73 len=19 Pa=92210.203 RSSI=-36.0 SNR=12.0
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=74 len=19 Pa=92210.812 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=75 len=19 Pa=92210.469 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB0: diag TX=76 RX=0 E=0 st=0 in=5.7 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=76 len=19 Pa=92211.125 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=77 len=19 Pa=92211.094 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB1: heard base uid=4037993153
+/dev/ttyUSB1: hearing base: becoming Monitoring DB
+/dev/ttyUSB1: BLE advertising
+/dev/ttyUSB1: ready
+/dev/ttyUSB1: monitor RX=9 bases=1 localPa=92214.438 basePa=92211.094 diffIn=-11.76 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=78 len=19 Pa=92209.984 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=79 len=19 Pa=92209.875 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB0: diag TX=80 RX=0 E=0 st=0 in=4.8 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=80 len=19 Pa=92209.703 RSSI=-37.0 SNR=12.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=81 len=19 Pa=92210.031 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB1: monitor RX=13 bases=1 localPa=92216.000 basePa=92210.031 diffIn=-21.12 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=82 len=19 Pa=92210.234 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=83 len=19 Pa=92208.297 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB0: diag TX=84 RX=0 E=0 st=0 in=5.9 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=84 len=19 Pa=92211.719 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=85 len=19 Pa=92211.875 RSSI=-36.0 SNR=12.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=86 len=19 Pa=92211.281 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: monitor RX=18 bases=1 localPa=92214.797 basePa=92211.281 diffIn=-12.48 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=87 len=19 Pa=92210.609 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=88 len=19 Pa=92211.422 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB0: diag TX=89 RX=0 E=0 st=0 in=5.5 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=89 len=19 Pa=92210.047 RSSI=-36.0 SNR=13.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=90 len=19 Pa=92211.266 RSSI=-36.0 SNR=13.2
+/dev/ttyUSB1: monitor RX=22 bases=1 localPa=92214.609 basePa=92211.266 diffIn=-11.86 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=91 len=19 Pa=92210.547 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=92 len=19 Pa=92211.016 RSSI=-36.0 SNR=13.0
+/dev/ttyUSB0: diag TX=93 RX=0 E=0 st=0 in=5.1 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=93 len=19 Pa=92211.812 RSSI=-36.0 SNR=13.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=94 len=19 Pa=92209.250 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB1: monitor RX=26 bases=1 localPa=92216.188 basePa=92209.250 diffIn=-24.55 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=95 len=19 Pa=92210.688 RSSI=-36.0 SNR=12.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=96 len=19 Pa=92209.219 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB0: diag TX=97 RX=0 E=0 st=0 in=7.3 Pa=92210 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=97 len=19 Pa=92208.969 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=98 len=19 Pa=92209.984 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: monitor RX=30 bases=1 localPa=92214.484 basePa=92209.984 diffIn=-15.92 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=99 len=19 Pa=92211.406 RSSI=-37.0 SNR=12.2
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=100 len=19 Pa=92211.016 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB0: diag TX=101 RX=0 E=0 st=0 in=7.2 Pa=92210 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=101 len=19 Pa=92209.109 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=102 len=19 Pa=92210.188 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB1: monitor RX=34 bases=1 localPa=92216.422 basePa=92210.188 diffIn=-22.05 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=103 len=19 Pa=92211.406 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=104 len=19 Pa=92212.984 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB0: diag TX=105 RX=0 E=0 st=0 in=2.5 Pa=92212 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=105 len=19 Pa=92210.953 RSSI=-36.0 SNR=13.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=106 len=19 Pa=92210.516 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB1: monitor RX=38 bases=1 localPa=92215.266 basePa=92210.516 diffIn=-16.75 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=107 len=19 Pa=92210.812 RSSI=-36.0 SNR=13.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=108 len=19 Pa=92209.109 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=109 len=19 Pa=92211.516 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB0: diag TX=110 RX=0 E=0 st=0 in=9.4 Pa=92210 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=110 len=19 Pa=92210.891 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=111 len=19 Pa=92209.734 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: monitor RX=43 bases=1 localPa=92215.703 basePa=92209.734 diffIn=-21.12 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=112 len=19 Pa=92210.625 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=113 len=19 Pa=92210.203 RSSI=-36.0 SNR=12.2
+/dev/ttyUSB0: diag TX=114 RX=0 E=0 st=0 in=2.8 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=114 len=19 Pa=92211.312 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=115 len=19 Pa=92210.578 RSSI=-36.0 SNR=11.8
+/dev/ttyUSB1: monitor RX=47 bases=1 localPa=92215.000 basePa=92210.578 diffIn=-15.60 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=116 len=19 Pa=92210.469 RSSI=-36.0 SNR=12.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=117 len=19 Pa=92212.078 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB0: diag TX=118 RX=0 E=0 st=0 in=4.0 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=118 len=19 Pa=92210.781 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=119 len=19 Pa=92211.172 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB1: monitor RX=51 bases=1 localPa=92215.734 basePa=92211.172 diffIn=-16.12 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=120 len=19 Pa=92210.391 RSSI=-38.0 SNR=13.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=121 len=19 Pa=92209.734 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB0: diag TX=122 RX=0 E=0 st=0 in=2.8 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=122 len=19 Pa=92211.156 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=123 len=19 Pa=92210.406 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB1: monitor RX=55 bases=1 localPa=92215.453 basePa=92210.406 diffIn=-17.89 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=124 len=19 Pa=92210.141 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=125 len=19 Pa=92212.656 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB0: diag TX=126 RX=0 E=0 st=0 in=1.0 Pa=92212 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=126 len=19 Pa=92210.703 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=127 len=19 Pa=92211.266 RSSI=-37.0 SNR=12.0
+/dev/ttyUSB1: monitor RX=59 bases=1 localPa=92215.281 basePa=92211.266 diffIn=-14.25 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=128 len=19 Pa=92212.328 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=129 len=19 Pa=92211.859 RSSI=-37.0 SNR=12.2
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=130 len=19 Pa=92212.016 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB0: diag TX=131 RX=0 E=0 st=0 in=5.1 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=131 len=19 Pa=92212.484 RSSI=-37.0 SNR=13.0
+/dev/ttyUSB1: monitor RX=63 bases=1 localPa=92215.484 basePa=92212.484 diffIn=-10.61 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=132 len=19 Pa=92210.219 RSSI=-36.0 SNR=12.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=133 len=19 Pa=92210.844 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=134 len=19 Pa=92209.672 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB0: diag TX=135 RX=0 E=0 st=0 in=5.3 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=135 len=19 Pa=92211.109 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=136 len=19 Pa=92210.109 RSSI=-37.0 SNR=13.0
+/dev/ttyUSB1: monitor RX=68 bases=1 localPa=92215.906 basePa=92210.109 diffIn=-20.49 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=137 len=19 Pa=92210.828 RSSI=-37.0 SNR=12.2
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=138 len=19 Pa=92211.047 RSSI=-37.0 SNR=12.5
+/dev/ttyUSB0: diag TX=139 RX=0 E=0 st=0 in=3.8 Pa=92211 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=139 len=19 Pa=92209.984 RSSI=-37.0 SNR=13.0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=140 len=19 Pa=92211.312 RSSI=-37.0 SNR=12.2
+/dev/ttyUSB1: monitor RX=72 bases=1 localPa=92214.938 basePa=92211.312 diffIn=-12.80 rxErr=0 reject=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=141 len=19 Pa=92209.984 RSSI=-37.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=142 len=19 Pa=92208.453 RSSI=-36.0 SNR=12.5
+/dev/ttyUSB0: diag TX=143 RX=0 E=0 st=0 in=10.7 Pa=92209 locked=0
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=143 len=19 Pa=92210.547 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB1: RX uid=f0aee2c1 seq=144 len=19 Pa=92210.109 RSSI=-36.0 SNR=12.8
+/dev/ttyUSB1: monitor RX=76 bases=1 localPa=92216.062 basePa=92210.109 diffIn=-21.01 rxErr=0 reject=0

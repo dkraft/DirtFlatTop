@@ -1,0 +1,74 @@
+{"time": "2026-11-07T06:08:41.663-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4803 len=19 Pa=92228.203 RSSI=-36.0 SNR=13.0"}
+{"time": "2026-11-07T06:08:41.791-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4735 bases=1 localPa=92233.656 basePa=92228.203 diffIn=-19.35 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:41.903-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4804 len=19 Pa=92228.750 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:41.953-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4805 RX=0 E=0 st=0 in=-60.3 Pa=92229 locked=0"}
+{"time": "2026-11-07T06:08:42.143-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4805 len=19 Pa=92229.688 RSSI=-36.0 SNR=13.2"}
+{"time": "2026-11-07T06:08:42.381-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4806 len=19 Pa=92229.594 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:42.629-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4807 len=19 Pa=92230.203 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:42.791-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4739 bases=1 localPa=92232.828 basePa=92230.203 diffIn=-9.26 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:42.867-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4808 len=19 Pa=92229.156 RSSI=-37.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:42.953-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4809 RX=0 E=0 st=0 in=-59.8 Pa=92229 locked=0"}
+{"time": "2026-11-07T06:08:43.105-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4809 len=19 Pa=92228.656 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:43.343-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4810 len=19 Pa=92230.062 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:43.581-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4811 len=19 Pa=92228.844 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:43.791-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4743 bases=1 localPa=92232.984 basePa=92228.844 diffIn=-14.67 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:43.825-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4812 len=19 Pa=92228.875 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:43.954-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4813 RX=0 E=0 st=0 in=-58.5 Pa=92229 locked=0"}
+{"time": "2026-11-07T06:08:44.063-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4813 len=19 Pa=92229.453 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:44.305-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4814 len=19 Pa=92229.625 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:44.546-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4815 len=19 Pa=92227.469 RSSI=-36.0 SNR=13.0"}
+{"time": "2026-11-07T06:08:44.784-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4816 len=19 Pa=92228.266 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:44.791-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4748 bases=1 localPa=92236.156 basePa=92228.266 diffIn=-27.98 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:44.954-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4817 RX=0 E=0 st=0 in=-58.4 Pa=92229 locked=0"}
+{"time": "2026-11-07T06:08:45.023-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4817 len=19 Pa=92228.875 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:45.261-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4818 len=19 Pa=92229.875 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:45.494-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4819 len=19 Pa=92229.641 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:45.727-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4820 len=19 Pa=92229.047 RSSI=-36.0 SNR=13.2"}
+{"time": "2026-11-07T06:08:45.791-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4752 bases=1 localPa=92234.016 basePa=92229.047 diffIn=-17.58 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:45.963-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4821 len=19 Pa=92229.828 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:45.970-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4822 RX=0 E=0 st=0 in=-58.6 Pa=92229 locked=0"}
+{"time": "2026-11-07T06:08:46.194-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4822 len=19 Pa=92230.438 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:46.428-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4823 len=19 Pa=92228.812 RSSI=-36.0 SNR=13.0"}
+{"time": "2026-11-07T06:08:46.667-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4824 len=19 Pa=92230.375 RSSI=-36.0 SNR=13.2"}
+{"time": "2026-11-07T06:08:46.793-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4756 bases=1 localPa=92235.172 basePa=92230.375 diffIn=-16.96 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:46.905-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4825 len=19 Pa=92229.844 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:46.971-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4826 RX=0 E=0 st=0 in=-56.6 Pa=92228 locked=0"}
+{"time": "2026-11-07T06:08:47.146-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4826 len=19 Pa=92228.531 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:47.384-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4827 len=19 Pa=92229.906 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:47.630-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4828 len=19 Pa=92228.344 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:47.792-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4760 bases=1 localPa=92233.891 basePa=92228.344 diffIn=-19.66 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:47.868-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4829 len=19 Pa=92230.297 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:47.972-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4830 RX=0 E=0 st=0 in=-56.6 Pa=92228 locked=0"}
+{"time": "2026-11-07T06:08:48.108-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4830 len=19 Pa=92228.781 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:48.346-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4831 len=19 Pa=92230.172 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:48.586-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4832 len=19 Pa=92229.141 RSSI=-37.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:48.792-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4764 bases=1 localPa=92235.203 basePa=92229.141 diffIn=-21.43 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:48.828-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4833 len=19 Pa=92229.578 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:48.972-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4834 RX=0 E=0 st=0 in=-67.7 Pa=92231 locked=0"}
+{"time": "2026-11-07T06:08:49.063-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4834 len=19 Pa=92229.531 RSSI=-36.0 SNR=12.0"}
+{"time": "2026-11-07T06:08:49.305-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4835 len=19 Pa=92228.609 RSSI=-35.0 SNR=13.2"}
+{"time": "2026-11-07T06:08:49.548-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4836 len=19 Pa=92229.016 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:49.788-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4837 len=19 Pa=92230.203 RSSI=-36.0 SNR=12.0"}
+{"time": "2026-11-07T06:08:49.796-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4769 bases=1 localPa=92234.266 basePa=92230.203 diffIn=-14.36 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:49.973-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4838 RX=0 E=0 st=0 in=-57.1 Pa=92228 locked=0"}
+{"time": "2026-11-07T06:08:50.029-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4838 len=19 Pa=92230.812 RSSI=-35.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:50.266-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4839 len=19 Pa=92229.438 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:50.504-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4840 len=19 Pa=92229.203 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:50.747-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4841 len=19 Pa=92231.891 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:50.792-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4773 bases=1 localPa=92235.938 basePa=92231.891 diffIn=-14.25 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:50.989-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4842 len=19 Pa=92229.188 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:50.999-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4843 RX=0 E=0 st=0 in=-65.3 Pa=92231 locked=0"}
+{"time": "2026-11-07T06:08:51.225-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4843 len=19 Pa=92229.062 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:51.468-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4844 len=19 Pa=92229.406 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:51.708-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4845 len=19 Pa=92229.609 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:51.793-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4777 bases=1 localPa=92233.156 basePa=92229.609 diffIn=-12.59 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:51.956-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4846 len=19 Pa=92227.938 RSSI=-36.0 SNR=12.0"}
+{"time": "2026-11-07T06:08:52.000-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4847 RX=0 E=0 st=0 in=-54.7 Pa=92228 locked=0"}
+{"time": "2026-11-07T06:08:52.194-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4847 len=19 Pa=92229.422 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:52.431-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4848 len=19 Pa=92230.281 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:52.670-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4849 len=19 Pa=92230.141 RSSI=-36.0 SNR=12.2"}
+{"time": "2026-11-07T06:08:52.793-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "monitor RX=4781 bases=1 localPa=92232.547 basePa=92230.141 diffIn=-8.53 rxErr=0 reject=0"}
+{"time": "2026-11-07T06:08:52.908-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4850 len=19 Pa=92228.156 RSSI=-36.0 SNR=12.8"}
+{"time": "2026-11-07T06:08:53.001-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "diag TX=4851 RX=0 E=0 st=0 in=-57.9 Pa=92229 locked=0"}
+{"time": "2026-11-07T06:08:53.138-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4851 len=19 Pa=92227.703 RSSI=-36.0 SNR=12.5"}
+{"time": "2026-11-07T06:08:53.372-05:00", "zone": "EST", "device": "second", "port": "/dev/ttyUSB1", "line": "RX uid=f0aee2c1 seq=4852 len=19 Pa=92229.984 RSSI=-36.0 SNR=12.5"}

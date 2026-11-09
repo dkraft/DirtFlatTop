@@ -1,0 +1,53 @@
+{"time": "2026-11-08T07:22:44.763-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3fc997b0,len:0x8100"}
+{"time": "2026-11-08T07:22:44.790-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x40374000,len:0x47a8"}
+{"time": "2026-11-08T07:22:44.806-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x42000020,len:0x171ec4"}
+{"time": "2026-11-08T07:22:44.809-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Invalid image block, can't boot."}
+{"time": "2026-11-08T07:22:44.810-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ets_main.c 329 "}
+{"time": "2026-11-08T07:22:45.653-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ESP-ROM:esp32s3-20210327"}
+{"time": "2026-11-08T07:22:45.654-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Build:Mar 27 2021"}
+{"time": "2026-11-08T07:22:45.659-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "rst:0x7 (TG0WDT_SYS_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)"}
+{"time": "2026-11-08T07:22:45.661-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Saved PC:0x40043ac8"}
+{"time": "2026-11-08T07:22:45.662-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "SPIWP:0xee"}
+{"time": "2026-11-08T07:22:45.664-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "mode:DIO, clock div:2"}
+{"time": "2026-11-08T07:22:45.667-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3c180020,len:0x73740"}
+{"time": "2026-11-08T07:22:45.713-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ESP-ROM:esp32s3-20210327"}
+{"time": "2026-11-08T07:22:45.717-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Build:Mar 27 2021"}
+{"time": "2026-11-08T07:22:45.723-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "rst:0x10 (RTCWDT_RTC_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)"}
+{"time": "2026-11-08T07:22:45.724-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "SPIWP:0xee"}
+{"time": "2026-11-08T07:22:45.726-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "mode:DIO, clock div:2"}
+{"time": "2026-11-08T07:22:45.728-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3c180020,len:0x73740"}
+{"time": "2026-11-08T07:22:46.126-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3fc997b0,len:0x8100"}
+{"time": "2026-11-08T07:22:46.153-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x40374000,len:0x47a8"}
+{"time": "2026-11-08T07:22:46.169-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x42000020,len:0x171ec4"}
+{"time": "2026-11-08T07:22:46.172-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Invalid image block, can't boot."}
+{"time": "2026-11-08T07:22:46.173-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ets_main.c 329 "}
+{"time": "2026-11-08T07:22:47.018-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ESP-ROM:esp32s3-20210327"}
+{"time": "2026-11-08T07:22:47.019-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Build:Mar 27 2021"}
+{"time": "2026-11-08T07:22:47.024-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "rst:0x7 (TG0WDT_SYS_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)"}
+{"time": "2026-11-08T07:22:47.026-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Saved PC:0x40043ac8"}
+{"time": "2026-11-08T07:22:47.027-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "SPIWP:0xee"}
+{"time": "2026-11-08T07:22:47.029-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "mode:DIO, clock div:2"}
+{"time": "2026-11-08T07:22:47.032-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3c180020,len:0x73740"}
+{"time": "2026-11-08T07:22:47.428-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3fc997b0,len:0x8100"}
+{"time": "2026-11-08T07:22:47.455-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x40374000,len:0x47a8"}
+{"time": "2026-11-08T07:22:47.471-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x42000020,len:0x171ec4"}
+{"time": "2026-11-08T07:22:47.474-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Invalid image block, can't boot."}
+{"time": "2026-11-08T07:22:47.475-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ets_main.c 329 "}
+{"time": "2026-11-08T07:22:48.318-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ESP-ROM:esp32s3-20210327"}
+{"time": "2026-11-08T07:22:48.319-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Build:Mar 27 2021"}
+{"time": "2026-11-08T07:22:48.324-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "rst:0x7 (TG0WDT_SYS_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)"}
+{"time": "2026-11-08T07:22:48.326-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Saved PC:0x40043ac8"}
+{"time": "2026-11-08T07:22:48.327-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "SPIWP:0xee"}
+{"time": "2026-11-08T07:22:48.329-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "mode:DIO, clock div:2"}
+{"time": "2026-11-08T07:22:48.332-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3c180020,len:0x73740"}
+{"time": "2026-11-08T07:22:48.378-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ESP-ROM:esp32s3-20210327"}
+{"time": "2026-11-08T07:22:48.383-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Build:Mar 27 2021"}
+{"time": "2026-11-08T07:22:48.388-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "rst:0x10 (RTCWDT_RTC_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)"}
+{"time": "2026-11-08T07:22:48.389-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "SPIWP:0xee"}
+{"time": "2026-11-08T07:22:48.391-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "mode:DIO, clock div:2"}
+{"time": "2026-11-08T07:22:48.394-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3c180020,len:0x73740"}
+{"time": "2026-11-08T07:22:48.792-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x3fc997b0,len:0x8100"}
+{"time": "2026-11-08T07:22:48.818-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x40374000,len:0x47a8"}
+{"time": "2026-11-08T07:22:48.834-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "load:0x42000020,len:0x171ec4"}
+{"time": "2026-11-08T07:22:48.837-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "Invalid image block, can't boot."}
+{"time": "2026-11-08T07:22:48.839-05:00", "zone": "EST", "device": "original", "port": "/dev/ttyUSB0", "line": "ets_main.c 329 "}

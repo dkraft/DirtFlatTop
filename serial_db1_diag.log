@@ -1,0 +1,28 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x29 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x1188
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xbf0
+load:0x403cb700,len:0x30e4
+entry 0x403c88ac
+BMP585 init OK
+SX1262 init OK
+settling 3000 ms
+zero locked at 91900.3 Pa
+listening 2312 ms for base beacons
+silence: becoming Stationary Base
+BLE advertising
+ready
+diag TX=1 RX=0 E=0 st=0 in=0.1 Pa=91900 locked=0
+diag TX=5 RX=0 E=0 st=0 in=-0.0 Pa=91900 locked=0
+diag TX=9 RX=0 E=0 st=0 in=-0.0 Pa=91900 locked=0
+diag TX=13 RX=0 E=0 st=0 in=-0.3 Pa=91901 locked=0
+diag TX=17 RX=0 E=0 st=0 in=-0.5 Pa=91902 locked=0
+diag TX=22 RX=0 E=0 st=0 in=-0.4 Pa=91901 locked=0
+diag TX=26 RX=0 E=0 st=0 in=0.1 Pa=91900 locked=0
+diag TX=30 RX=0 E=0 st=0 in=-0.7 Pa=91902 locked=0
+diag TX=34 RX=0 E=0 st=0 in=-1.0 Pa=91903 locked=0
+diag TX=39 RX=0 E=0 st=0 in=-0.6 Pa=91902 locked=0
